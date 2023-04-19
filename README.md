@@ -38,7 +38,8 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 5.End the verilog program using keyword endmodule.
 ~~~
 ## Program:
-/*
+
+~~~
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 Developed by: sucharitha.k
 RegisterNumber:  212221240021
@@ -60,7 +61,8 @@ output Difference,Borrow;
 assign Difference = (~A &(B ^ C) | (B & C));
 assign Borrow = ( A^B^C);
 endmodule
-*/
+~~~
+
 
 ## Output:
 
